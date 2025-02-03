@@ -26,7 +26,7 @@ html {
     background-image: none;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   html {
     font-size: 11px;
   }
@@ -84,7 +84,7 @@ section {
   padding: 2em;
   flex: 1 1 auto;
 }
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   section {
     padding: 1em;
   }
@@ -109,7 +109,7 @@ body {
     top: 0;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   body {
     padding: 0;
   }
@@ -146,12 +146,14 @@ body {
   padding-top: 5em;
   gap: 4em;
   flex-wrap: wrap;
+  align-items: center;
 }
 @media (max-width: 1350px) {
   #header .content-wrapper {
     width: 100%;
     flex-direction: row;
     gap: 1.5rem;
+    align-items: end;
   }
 }
 @media (max-width: 900px) {
@@ -159,6 +161,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-content: center;
+    align-items: center;
   }
 }
 #header .links,
@@ -170,6 +173,7 @@ body {
   gap: 1em;
   min-width: 160px;
   flex-wrap: wrap;
+  align-items: center;
 }
 #header .links li::after {
   content: "";
@@ -192,11 +196,10 @@ body {
   }
 }
 #header .socials {
-  padding-top: 0.5em;
   display: flex;
   gap: 1em;
   align-content: center;
-  align-items: end;
+  align-items: center;
 }
 @media (max-width: 900px) {
   #header .socials {
@@ -268,7 +271,7 @@ body {
 #main .gallery-section h3 span {
   font-size: 0.85em;
 }
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   #main .gallery-section {
     padding: 3em 1.5em;
   }
@@ -363,7 +366,7 @@ body {
     height: 14.375em;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   #main .gallery {
     flex-direction: column;
   }
