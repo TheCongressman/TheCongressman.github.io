@@ -1,7 +1,11 @@
+window.addEventListener("load", () => {
+  document.getElementById("preload").style.opacity = 1;
+});
+
 var modalEle = document.querySelector(".modal");
 var modalImage = document.querySelector(".modalImage");
 Array.from(document.querySelectorAll(".artwork-thumbnail")).forEach(item => {
-   item.addEventListener("click", event => {
+    item.addEventListener("click", event => {
       modalEle.style.display = "flex";
       modalImage.src = event.target.src;
    });
