@@ -1,7 +1,3 @@
-window.addEventListener("load", () => {
-  document.getElementById("preload").style.opacity = 1;
-});
-
 var modalEle = document.querySelector(".modal");
 var modalImage = document.querySelector(".modalImage");
 Array.from(document.querySelectorAll(".artwork-thumbnail")).forEach(item => {
@@ -10,9 +6,7 @@ Array.from(document.querySelectorAll(".artwork-thumbnail")).forEach(item => {
       modalImage.src = event.target.src;
    });
 });
-document.querySelector(".close").addEventListener("click", () => {
+document.querySelector(".close, .modal").addEventListener("click", () => {
    modalEle.style.display = "none";
-});
-document.querySelector(".modal").addEventListener("click", () => {
-   modalEle.style.display = "none";
+   modalImage.src = '';
 });
