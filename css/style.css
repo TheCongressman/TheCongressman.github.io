@@ -15,11 +15,11 @@ html {
   box-sizing: border-box;
   font-size: 14px;
   --c1: #101717;
-  --c2: #2b61df;
-  --c3: #4DFFFF;
-  --c4: #439eee;
+  --c2: #3666d7;
+  --c3: #8EEEF2;
+  --c4: #268de8;
   --c5: #f5d447;
-  --c6: #19D0D9;
+  --c6: #39C3CA;
   background-color: var(--c2);
   font-family: "Lexend Deca", sans-serif;
   background-image: url("../img/Cloudsbgdots.webp");
