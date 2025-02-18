@@ -367,6 +367,7 @@ body {
   background: black;
   padding: 0.8em 1.5em;
   width: 100%;
+  animation: slide 200ms both ease-in-out;
 }
 #main li:nth-last-child(1), #main li:nth-last-child(2) {
   flex: 1 1 auto;
@@ -470,6 +471,14 @@ body {
   }
   100% {
     background-position: -100% 100%;
+  }
+}
+@keyframes slide {
+  0% {
+    bottom: -5em;
+  }
+  100% {
+    bottom: 0;
   }
 }
 .modal {
