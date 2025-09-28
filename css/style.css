@@ -20,6 +20,7 @@ html {
   --c4: #1f87e3;
   --c5: #f5d447;
   --c6: #15DDE8;
+  --c7: #2c56a8;
   background-color: var(--c2);
   font-family: "Lexend Deca", sans-serif;
   background-image: url("../img/Cloudsbgdots.webp");
@@ -193,6 +194,7 @@ body {
   flex-wrap: wrap;
   align-items: center;
   padding: 3em 2em;
+  background-color: var(--c7);
 }
 @media (min-width: 1500px) {
   #header .links {
@@ -273,6 +275,7 @@ body {
   border-radius: 1.5em;
   margin: 5em 0;
   scroll-margin-top: 3em;
+  background-color: var(--c7);
 }
 #main .gallery-section:nth-last-child(1 of .gallery-section) {
   margin-bottom: 0;
@@ -319,9 +322,9 @@ body {
   top: -0.1em;
   left: 2.6em;
   font-size: 1.7em;
-  background: var(--c2);
+  background: var(--c7);
   width: max-content;
-  padding: 0 0.6em;
+  padding: 0 0.8em;
   transform: translate(0%, -50%);
   border: solid 1px var(--c4);
   border-radius: 8px;
@@ -333,11 +336,11 @@ body {
 }
 #main h3 {
   font-size: 1.41em;
-  padding: 0 0.5em;
+  padding: 0 0.8em;
   position: absolute;
   top: -0.2em;
   left: 2.8em;
-  background: var(--c2);
+  background: var(--c7);
   width: max-content;
   transform: translate(0%, -50%);
   border: solid 1px var(--c4);
@@ -355,7 +358,7 @@ body {
   flex-grow: 1;
   position: relative;
   flex-shrink: 1;
-  filter: drop-shadow(2px 5px 8px rgba(24, 34, 183, 0.5));
+  filter: drop-shadow(2px 5px 5px rgba(20, 26, 115, 0.5));
   overflow: hidden;
 }
 #main li:hover {
