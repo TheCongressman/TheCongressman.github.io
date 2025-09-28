@@ -303,12 +303,14 @@ body {
   flex-wrap: wrap;
   gap: 1.8em;
 }
-#main .gallery-full-height li:first-child:nth-last-child(2),
-#main .gallery-full-height li:first-child:nth-last-child(2) ~ li {
+#main .gallery-equal-width li {
+  width: 100%;
+  flex-basis: 20rem;
+}
+#main .gallery-full-height li {
   flex: 1 1 43%;
 }
-#main .gallery-full-height li:first-child:nth-last-child(2) img,
-#main .gallery-full-height li:first-child:nth-last-child(2) ~ li img {
+#main .gallery-full-height li img {
   height: 100%;
   max-height: 100%;
 }
@@ -367,13 +369,6 @@ body {
   background: black;
   padding: 0.8em 1.5em;
   width: 100%;
-}
-#main li:nth-last-child(1), #main li:nth-last-child(2) {
-  flex: 1 1 auto;
-}
-#main li:nth-last-child(1) img, #main li:nth-last-child(2) img {
-  max-height: 24.4em;
-  height: 100%;
 }
 #main li img {
   border-radius: inherit;
