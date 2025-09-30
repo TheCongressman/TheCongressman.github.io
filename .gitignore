@@ -2,3 +2,6 @@
 *.json
 scss/
 graphic-files/
+artwork/original/
+artwork/resize
+
