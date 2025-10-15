@@ -8,14 +8,24 @@ Array.from(document.querySelectorAll(".artwork-thumbnail")).forEach(item => {
       body.style.overflow = "hidden";
    });
 });
-document.querySelector(".close").addEventListener("click", () => {
-   modalEle.style.display = "none";
-   body.style.overflow = "unset";
+document.querySelector(".ui-close").addEventListener("click", () => {
+  modalImage.classList.remove("img-full");
+  modalImage.src = ""
+  modalEle.style.display = "none";
+  body.style.overflow = "unset";
 });
 document.querySelector(".modal").addEventListener("click", () => {
-   modalEle.style.display = "none";
-   body.style.overflow = "unset";
+  modalImage.classList.remove("img-full");
+  modalImage.src = ""
+  modalEle.style.display = "none";
+  body.style.overflow = "unset";
 });
+document.querySelector(".ui-zoom").addEventListener("click", () => {
+  event.stopPropagation();
+  modalImage.classList.toggle("img-full");
+});
+
+
 
 //
 // var modalEle = document.querySelector(".modal");
