@@ -492,13 +492,19 @@ body {
   overflow: auto;
   background-color: rgba(0, 0, 0, 0.9);
 }
+.modal .modal-item-wrapper {
+  display: flex;
+  justify-content: center;
+  min-height: 100%;
+  align-items: center;
+}
 
 .modalImage {
-  padding: 2em;
+  padding: 6em;
   display: block;
   width: auto;
-  height: auto;
-  max-height: 900px;
+  height: 100%;
+  max-width: 100%;
 }
 
 #caption {
@@ -513,11 +519,11 @@ body {
 }
 
 .close {
-  position: absolute;
+  position: fixed;
   top: 15px;
-  right: 35px;
+  right: 45px;
   color: #f1f1f1;
-  font-size: 40px;
+  font-size: 60px;
   font-weight: bold;
   transition: 0.3s;
 }
