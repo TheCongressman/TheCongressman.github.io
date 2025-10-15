@@ -504,7 +504,7 @@ body {
   display: block;
   width: auto;
   height: 100%;
-  max-width: 100%;
+  max-width: 1500px;
 }
 
 #caption {
